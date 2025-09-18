@@ -30,11 +30,24 @@ header img{
 
 .navList{
     margin-right:50px ;
-    display: inline;
+    display: inline-flex;
+    flex-direction: row;
     list-style: none;
     color: white;
+    gap: 10px;
     margin: 8px;
     
+}
+
+.navList li{
+    border-radius: 10px;
+    padding: 0px 10px;
+}
+
+.navList :hover{
+    text-decoration: underline;
+    background: #2d373d;
+    cursor: pointer;
 }
 
 .weDesing{
@@ -96,6 +109,11 @@ header img{
     padding: 10px 15px;
 }
 
+.botonOlink div :hover{
+    background: #204d6e;
+    cursor: pointer;
+}
+
 
 .minicompu{
     height: 16px;
@@ -152,6 +170,12 @@ header img{
     align-self: center;
     margin-top: 50px;
     margin-bottom: 100px;
+}
+
+.caracte button:hover{
+    background: #204d6e;
+    cursor: pointer;
+
 }
 
 .caracte div img{
